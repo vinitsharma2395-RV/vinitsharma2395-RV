@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Get in touch with Alex Morgan about a design or development project.">
+  <title>Contact — Alex Morgan</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html" aria-label="Alex Morgan home"><span class="brand-mark">A</span> alexmorgan<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="primary-menu"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a class="active" href="contact.html">Contact</a><button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">◐</span> <span class="theme-label">Dark mode</span></button></div>
+  </nav></header>
+  <main id="top">
+    <section class="page-hero contact-hero container">
+      <p class="eyebrow">YOUR TURN, IF YOU’RE READY</p><h1>Tell me what’s<br><em>on your mind.</em></h1>
+      <p class="page-lead">Have a project, a question, or just want to say hello? I’d love to hear from you.</p>
+    </section>
+    <section class="contact-layout container">
+      <article class="contact-form">
+      <form id="contact-form" novalidate>
+        <div class="form-heading"><p class="eyebrow">THE SHORT VERSION IS GREAT</p><h2>Let’s start <em>somewhere.</em></h2></div>
+        <div class="form-field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="How should I address you?" required><span class="field-error" data-error-for="name"></span></div>
+        <div class="form-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required><span class="field-error" data-error-for="email"></span></div>
+        <div class="form-field"><label for="message">A little about your project</label><textarea id="message" name="message" rows="5" placeholder="What are you working on?" required></textarea><span class="field-error" data-error-for="message"></span></div>
+        <button class="button button-dark" type="submit">Send your note <span aria-hidden="true">↗</span></button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+      </article>
+      <aside class="contact-aside">
+        <div class="contact-note"><p class="eyebrow">A NOTE ON TIMING</p><p>I usually reply within two business days. If you have a deadline in mind, feel free to include it in your message.</p></div>
+        <div class="contact-note"><p class="eyebrow">PREFER EMAIL?</p><a class="contact-email" href="mailto:hello@alexmorgan.design">hello@alexmorgan.design</a></div>
+        <div class="contact-note"><p class="eyebrow">GOOD COMPANY</p><div class="social-links"><a href="https://www.instagram.com/" aria-label="Instagram">IG</a><a href="https://www.linkedin.com/" aria-label="LinkedIn">IN</a><a href="https://www.behance.net/" aria-label="Behance">BE</a></div></div>
+      </aside>
+    </section>
+    <section class="contact-bottom container"><p>Not quite ready to talk? That’s okay.</p><a class="text-link" href="projects.html">Take another look around <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-main"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">A</span> alexmorgan<span class="brand-dot">.</span></a><p>Independent by choice. Collaborative by nature.</p></div><div class="footer-meta"><p class="eyebrow">SAY HELLO</p><a href="mailto:hello@alexmorgan.design">hello@alexmorgan.design</a><div class="social-links"><a href="https://www.instagram.com/" aria-label="Instagram">IG</a><a href="https://www.linkedin.com/" aria-label="LinkedIn">IN</a><a href="https://www.behance.net/" aria-label="Behance">BE</a></div></div></div><div class="container footer-bottom"><span>© <span data-year></span> Alex Morgan. Made with care.</span><a href="#top">Back to the beginning ↑</a></div></footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
