@@ -94,21 +94,21 @@ if (statNumbers.length && "IntersectionObserver" in window) {
 
 const testimonials = [
   {
-    quote: "Alex has that rare mix of taste and thoughtfulness. The new site feels like us, only more confident. We couldn’t be happier.",
+    quote: "Vinit has that rare mix of taste and thoughtfulness. The new site feels like us, only more confident. We couldn’t be happier.",
     name: "Jamie Miller",
     role: "Founder, Goodwell Studio",
     initials: "JM",
     avatarClass: ""
   },
   {
-    quote: "From the first conversation, Alex understood what we were trying to do. The whole process felt clear, collaborative, and genuinely fun.",
+    quote: "From the first conversation, Vinit understood what we were trying to do. The whole process felt clear, collaborative, and genuinely fun.",
     name: "Riley Kim",
     role: "Co-founder, Field Notes",
     initials: "RK",
     avatarClass: "avatar-peach"
   },
   {
-    quote: "We finally have a digital home that reflects the care we put into our work. Alex made the complicated parts feel easy.",
+    quote: "We finally have a digital home that reflects the care we put into our work. Vinit made the complicated parts feel easy.",
     name: "Taylor Smith",
     role: "Director, Common Ground",
     initials: "TS",
@@ -196,7 +196,7 @@ if (contactForm) {
       firstInvalid.focus();
       return;
     }
-    status.textContent = "Your details look good. This demo doesn’t send messages yet—please email hello@alexmorgan.design.";
+    status.textContent = "Your details look good. This demo doesn’t send messages yet.";
   });
   fields.forEach((field) => {
     field.addEventListener("input", () => {

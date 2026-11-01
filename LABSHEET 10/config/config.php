@@ -4,7 +4,7 @@ $root = dirname(__DIR__);
 
 return [
     'app' => [
-        'name'     => 'MyProject',
+        'name'     => 'Vinit Sharma',
         'base_url' => getenv('APP_URL') ?: 'https://myproject.local',
         'env'      => getenv('APP_ENV') ?: 'production',
         'timezone' => 'UTC',
@@ -23,7 +23,7 @@ return [
         'user'      => getenv('SMTP_USER') ?: '',
         'pass'      => getenv('SMTP_PASS') ?: '',
         'from'      => getenv('SMTP_FROM') ?: 'no-reply@myproject.local',
-        'from_name' => 'MyProject',
+        'from_name' => 'Vinit Sharma',
     ],
     'security' => [
         'max_attempts'    => 5,    // Q12

@@ -1,4 +1,4 @@
-# MyProject – MCA108P Lab Sheet 10
+# Vinit Sharma – MCA108P Lab Sheet 10
 
 An MVC-style PHP application (no framework) covering secure web development, a REST API,
 and server configuration.

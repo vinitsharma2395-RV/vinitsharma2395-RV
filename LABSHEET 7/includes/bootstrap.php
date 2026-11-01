@@ -163,7 +163,7 @@ function render_footer(): void
     </main>
     <footer class="site-footer" id="about">
         <div><a class="brand brand-footer" href="/LABSHEET%207/index.php"><span class="brand-mark">P</span><span>paper<span class="brand-amp">&</span>pine</span></a><p>Good books. Thoughtful finds. A little more wonder in every day.</p></div>
-        <div class="footer-note">Made for readers, wherever you are.<br><span>© <?= date('Y') ?> Paper & Pine Bookshop</span></div>
+        <div class="footer-note">Made for readers, wherever you are.<br><span>© <?= date('Y') ?> Paper & Pine Bookshop · Website by Vinit Sharma</span></div>
     </footer>
     </body>
     </html>
